@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полный курс по JavaScript</title>
+</head>
+<body>
+   <div class="content__block">
+
+      <h2 class="element-none">
+         Классификация типов данных в JavaScript
+      </h2>
+      <p>
+         Существует 8 типов данных
+      </p>
+      <p>Делятся на простые типы (примитивы) объекты (комплексные)</p>
+      <h2>Простые типы данных</h2>
+      <table>
+         <thead>
+            <tr>
+               <th>Тип данных</th>
+               <th>Описание</th>
+               <th>Пример</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td><strong>Числа</strong></td>
+               <td>Представляют числовые значения, как целые, так и дробные.</td>
+               <td><code style="max-height: 400px; overflow-y: hidden;">let age = 30;</code>
+               </td>
+            </tr>
+            <tr>
+               <td><strong>Строки</strong></td>
+               <td>Последовательности символов, заключенные в одинарные или двойные кавычки.
+               </td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">let name = "John";</code>
+               </td>
+            </tr>
+            <tr>
+               <td><strong>Логический тип (Boolean)</strong></td>
+               <td>Принимает два значения: <code
+                     style="max-height: 400px; overflow-y: hidden;">true</code> или <code
+                     style="max-height: 400px; overflow-y: hidden;">false</code>.</td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">let isActive = true;</code>
+               </td>
+            </tr>
+            <tr>
+               <td><strong>Undefined</strong></td>
+               <td>Переменная, которая была объявлена, но не инициализирована.</td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">let user; // user имеет значение undefined</code>
+               </td>
+            </tr>
+            <tr>
+               <td><strong>Null</strong></td>
+               <td>Намеренное отсутствие значения.</td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">let selectedItem = null;</code>
+               </td>
+            </tr>
+            <tr>
+               <td><strong>Symbol</strong></td>
+               <td>Уникальный и неизменяемый примитивный тип, используемый как идентификатор.
+               </td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">const uniqueId = Symbol('id');</code>
+               </td>
+            </tr>
+            <tr>
+               <td><strong>BigInt</strong></td>
+               <td>Позволяет работать с целыми числами произвольной длины.</td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">const bigNumber = 1234567890123456789012345678901234567890n;</code>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <br/>
+      <br/>
+      <h2>Специальные объекты</h2>
+      <table>
+         <thead>
+            <tr>
+               <th>Тип объекта</th>
+               <th>Описание</th>
+               <th>Пример</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td><strong>Массивы (Array)</strong></td>
+               <td>Упорядоченные коллекции значений.</td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">const fruits = ['apple', 'banana'];</code>
+               </td>
+            </tr>
+            <tr>
+               <td><strong>Функции (Function)</strong></td>
+               <td>Объекты, которые могут быть вызваны для выполнения кода.</td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">function greet() { console.log("Hello!"); }</code>
+               </td>
+            </tr>
+            <tr>
+               <td><strong>Объекты Даты</strong></td>
+               <td>Используются для работы с датами и временем.</td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">const currentDate = new Date();</code>
+               </td>
+            </tr>
+            <tr>
+               <td><strong>Регулярные выражения</strong></td>
+               <td>Шаблоны для поиска и манипуляции строками.</td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">const regex = /abc/;</code>
+               </td>
+            </tr>
+            <tr>
+               <td><strong>Ошибки (Error)</strong></td>
+               <td>Объекты, представляющие ошибки, возникающие во время выполнения.</td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">const error = new Error("Something went wrong!");</code>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+      <br/>
+      <br/>
+      <h2>Специальные объекты</h2>
+      <table>
+         <thead>
+            <tr>
+               <th>Тип объекта</th>
+               <th>Описание</th>
+               <th>Пример</th>
+            </tr>
+         </thead>
+         <tbody>
+            <tr>
+               <td><strong>Обычные объекты</strong></td>
+               <td>Наборы пар "ключ-значение", которые могут содержать данные и функции.</td>
+               <td><code
+                     style="max-height: 400px; overflow-y: hidden;">const user = { name: "John", age: 30 };</code>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </div>
+     <script src="../js/script.js"></script>
+</body>
+</html>
